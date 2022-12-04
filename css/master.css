@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.task-1 {
+    padding: 8em;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5em;
+}
+.task-1 div{
+    height: 400px;
+    width: 400px;
+    background-image: url("../images/Untitled.png");
+    background-size:200px;
+    background-repeat: no-repeat;
+    color: white;
+    background-color: lightgray;
+    padding: 10px;
+}
+.assign-2-shape-2 {
+    background-repeat:repeat-y !important;
+}
+.assign-2-shape-3 {
+    background-repeat:repeat-x !important;
+}
+.assign-2-shape-4 {
+    background-repeat:repeat !important;
+}
+/***************************Assignment two**************************/
+
+.task-2 {
+    padding: 5em;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.task-2 div{
+    background-color: #eee;
+    height: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 5px solid black;
+}
+
+.task-2 .one {
+    border: 5px solid red;
+}
+.task-2 .two {
+    border: 5px;
+    border-style: solid;
+    border-color: blue green;
+} 
+.task-2 .three {
+    border: 5px;
+    border-style: dashed;
+    border-color:red green blue yellow;
+} 
+/**************************Assignment three***************************************/
+.task-3 {
+    padding: 30px;
+}
+.task-3 div {
+    padding: 30px;
+    margin-bottom: 3em;
+    width: 400px;
+    background-color: #eee;
+    text-transform: capitalize;
+    position: relative;
+}
+.task-3 .one::before{
+   content: "";
+    position: absolute;
+    width: 10px;
+    height: 80%;
+    background-color: rgb(208, 79, 79);
+    top: 10px;
+    left: 10px;
+}
+.task-3 .two::before{
+    content: "";
+     position: absolute;
+     width: 10px;
+     height: 80%;
+     background-color: blue;
+     top: 10px;
+     left: 10px;
+ }
+.task-3 .three::before{
+    content: "";
+     position: absolute;
+     width: 10px;
+     height: 80%;
+     background-color: gray;
+     top: 10px;
+     left: 10px;
+ }
